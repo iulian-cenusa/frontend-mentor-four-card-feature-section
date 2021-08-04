@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-
+In this project I consolidated CSS grid and CSS flexbox knoledge and learn about box shadows and content positioning.
 
 ### Continued development
 
@@ -52,7 +52,8 @@ As with every project this is not complete. It can be improved to look exactly l
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [CSS Box Shadow](https://www.w3schools.com/css/css3_shadows_box.asp) - This helped me with box shadows.
+- [91 Beautiful CSS box-shadow examples - CSS Scan](https://getcssscan.com/css-box-shadow-examples) - This helpem me with the box shadow style.
 
 ## Author
 

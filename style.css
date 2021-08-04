@@ -7,7 +7,7 @@
 }
 
 html{
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -21,9 +21,164 @@ body{
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin: 1em 0 1em 0;
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 4em 0 1em 0;
+}
+
+#top span{
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+
+#top h1{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+#top p{
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
+
+#left{
     width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#middle{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#right{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 2em;
+    background-color: white;
+    box-shadow: hsl(229, 6%, 66%) 0px 8px 24px;
+    margin: 1em 0 1em 0;
+}
+
+.title{
+    color: hsl(234, 12%, 34%);
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.description{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    font-size: 1em;
+    margin: 1em 0 1em 0;
+}
+
+.img-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.red{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.cyan{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.orange{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.blue{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+@media (min-width: 375px) {
+
+    main{
+        width: 350px;
+    }
+
+    #top{
+        width: 350px;
+    }
+    #top span{
+        font-size: 1.74em;
+    }
+    
+    #top h1{
+        font-size: 1.8em;
+    
+    }
+
+    #bottom{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1em 0 1em 0;
+    }
+
+}
+
+@media (min-width: 1100px) {
+
+    main{
+        width: 1080px;
+    }
+
+    #top{
+        width: 500px;
+    }
+
+    #top span{
+        font-size: 2.14em;
+    }
+    
+    #top h1{
+        font-size: 2.2em;
+    
+    }
+    #bottom{
+        width: 1080px;
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-gap: 20px 30px;
+        align-items: center;
+        justify-content: center;
+        margin: 1em 0 1em 0;
+    }
+
+
 }
