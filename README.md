@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/iulian-cenusa/frontend-mentor-four-card-feature-section)
-- Live Site URL: [GitHub Pages](hhttps://github.com/iulian-cenusa/frontend-mentor-four-card-feature-section)
+- Live Site URL: [GitHub Pages](https://iulian-cenusa.github.io/frontend-mentor-four-card-feature-section/)
 
 ## My process
 
