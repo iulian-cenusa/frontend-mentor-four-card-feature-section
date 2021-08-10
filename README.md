@@ -53,11 +53,10 @@ As with every project this is not complete. It can be improved to look exactly l
 ### Useful resources
 
 - [CSS Box Shadow](https://www.w3schools.com/css/css3_shadows_box.asp) - This helped me with box shadows.
-- [91 Beautiful CSS box-shadow examples - CSS Scan](https://getcssscan.com/css-box-shadow-examples) - This helpem me with the box shadow style.
+- [91 Beautiful CSS box-shadow examples - CSS Scan](https://getcssscan.com/css-box-shadow-examples) - This helped me with the box shadow style.
 
 ## Author
 
 - Frontend Mentor - [@iulian-cenusa](https://www.frontendmentor.io/profile/iulian-cenusa)
 - Twitter - [@IulianCenusa](https://twitter.com/IulianCenusa)
 - Other Projects - [Bitbucket Repo](https://bitbucket.org/iulian_cenusa/)
-
